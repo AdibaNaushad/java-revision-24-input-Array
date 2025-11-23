@@ -45,7 +45,7 @@ public class practice {
             }
 
         }
-        printArray(arr1);
+
 
         System.out.println("enter row and col");
         int r2 = sc.nextInt();
@@ -60,9 +60,11 @@ public class practice {
             }
 
         }
-
+        System.out.println("1st array");
+        printArray(arr1);
+        System.out.println("2nd array");
         printArray(arr2);
-
+        System.out.println("sum of 1st & 2nd array is : ");
         sumArray(arr1,r1,c1,arr2,r2,c2);
 
 
